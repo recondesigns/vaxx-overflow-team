@@ -5,9 +5,7 @@ import stockHeadshot from '../../assets/images/stock-headshot-1x.jpg'
 const CardContainer = styled.div`
     margin: 0px;
     max-width: 320px;
-    height: 172px;
-    width: 320px;
-    height: 172px;
+    // height: 172px;    height: 172px;
     background: #FEFEFE;
     border: 2px solid #333333;
     box-sizing: border-box;
@@ -43,9 +41,22 @@ const CardContainer = styled.div`
         color: #333333;
         border: 1px dotted lightblue;
     }
+
+    & > a {
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #3F7F82;
+    }
 `
 
 export default function Card() {
+    let link = 'http://www.yahoo.com'
+    
     return (
         <CardContainer>
             <div>
@@ -54,6 +65,9 @@ export default function Card() {
             <h4>Member name</h4>
             <p>Member role</p>
             <p>Member branch</p>
+            <a href={link}>LinkedIn</a>
+            <a href={link}>Resume</a>
+            <a href={link}>Github</a>
         </CardContainer>
     )
 }
