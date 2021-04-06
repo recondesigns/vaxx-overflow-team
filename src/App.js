@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Preview from './components/Preview'
+import { Card } from './components/Card'
 import voLogo from './assets/images/vo-logo.svg'
 
 const AppContainer = styled.div`
@@ -30,6 +31,7 @@ function App() {
         <img src={voLogo} alt={'Vaxx Overflow'} />
         <Preview />
         <h2>The Team</h2>
+        <Card />
     </AppContainer>
   )
 }
