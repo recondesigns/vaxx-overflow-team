@@ -5,6 +5,8 @@ const PreviewContainer = styled.div`
     width: 320px;
     height: 240px;
     border: 2px solid black;
+
+    
 `
 
 export default function Preview() {
