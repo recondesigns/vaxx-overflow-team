@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import Preview from './components/Preview'
 import { Card } from './components/Card'
 import voLogo from './assets/images/vo-logo.svg'
+import stockHeadshot from './assets/images/stock-headshot-1x.jpg'
 
 const AppContainer = styled.div`
   width: 100%;
   height: 1458px;
-  // border: 2px solid lightblue;
 
   & > h2 {
     margin: 0px;
@@ -31,7 +31,24 @@ function App() {
         <img src={voLogo} alt={'Vaxx Overflow'} />
         <Preview />
         <h2>The Team</h2>
-        <Card />
+        <Card
+          name={'Brendan Schumaker'}
+          role={'Developer'} 
+          branch={'Marines Reserves'} 
+          linkedIn={'linkedIn Link'}
+          resume={'resume link'}
+          github={'github link'}
+          imageURL={stockHeadshot}
+        />
+        <Card
+          name={'Michael Stedman'}
+          role={'UX/Product Designer'} 
+          branch={'Army'} 
+          linkedIn={'linkedIn Link'}
+          resume={'resume link'}
+          github={'github link'}
+          imageURL={stockHeadshot}
+        />
     </AppContainer>
   )
 }
