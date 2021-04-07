@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Preview from './components/Preview'
 import { Card } from './components/Card'
+import { members } from './memberInfo'
 import voLogo from './assets/images/vo-logo.svg'
 import stockHeadshot from './assets/images/stock-headshot-1x.jpg'
 
@@ -26,6 +27,8 @@ const AppContainer = styled.div`
 `
 
 function App() {
+  console.log(members)
+
   return (
     <AppContainer>
         <img src={voLogo} alt={'Vaxx Overflow'} />
