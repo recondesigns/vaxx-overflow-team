@@ -95,8 +95,13 @@ const CardContainer = styled.div`
 `
 
 export default function Card(props) {
-    const { name, role, branch, imageURL } = props
-    let link = '#'
+    const { name, 
+            role, 
+            branch, 
+            imageURL,
+            linkedIn,
+    } = props
+    // let link = '#'
     
     return (
         <CardContainer>
@@ -106,9 +111,9 @@ export default function Card(props) {
             <h4>{name}</h4>
             <p className={'p-top'}>{role}</p>
             <p className={'p-bottom'}>{branch}</p>
-            <a href={link} className={'a-left'}>LinkedIn</a>
-            <a href={link} className={'a-middle'}>Resume</a>
-            <a href={link} className={'a-right'}>Github</a>
+            <a href={linkedIn} target={'_blank'} rel={"noopener noreferrer"} className={'a-left'}>LinkedIn</a>
+            {/* <a href={resume} className={'a-middle'}>Resume</a> */}
+            {/* <a href={gitHub} className={'a-right'}>Github</a> */}
         </CardContainer>
     )
 }

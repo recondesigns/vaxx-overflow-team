@@ -4,7 +4,7 @@ import Preview from './components/Preview'
 import { Card } from './components/Card'
 import { members } from './memberInfo'
 import voLogo from './assets/images/vo-logo.svg'
-import stockHeadshot from './assets/images/stock-headshot-1x.jpg'
+// import stockHeadshot from './assets/images/stock-headshot-1x.jpg'
 
 const AppContainer = styled.div`
   width: 100%;
@@ -27,7 +27,10 @@ const AppContainer = styled.div`
 `
 
 function App() {
-  console.log(members)
+  const { name, 
+          role,
+          imgUrl 
+  } = members.stedman
 
   return (
     <AppContainer>
@@ -35,22 +38,13 @@ function App() {
         <Preview />
         <h2>The Team</h2>
         <Card
-          name={'Brendan Schumaker'}
-          role={'Developer'} 
-          branch={'Marines Reserves'} 
-          linkedIn={'linkedIn Link'}
-          resume={'resume link'}
-          github={'github link'}
-          imageURL={stockHeadshot}
-        />
-        <Card
-          name={'Michael Stedman'}
-          role={'UX/Product Designer'} 
+          name={name}
+          role={role} 
           branch={'Army'} 
           linkedIn={'linkedIn Link'}
           resume={'resume link'}
           github={'github link'}
-          imageURL={stockHeadshot}
+          imageURL={imgUrl}
         />
     </AppContainer>
   )
