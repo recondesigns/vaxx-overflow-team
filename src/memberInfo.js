@@ -47,6 +47,15 @@ export const members = [
         gitHub: '#'
     },
     {
+        name: 'Charles Carbonel',
+        role: 'Air Force',
+        branch: 'Navy',
+        imgUrl: stedmanHeadshot,
+        linkedIn: 'https://www.linkedin.com/in/charles-carbonel/',
+        resume: '#',
+        gitHub: '#'
+    },
+    {
         name: 'Michael Stedman',
         role: 'UX/Product Designer',
         branch: 'Army',
