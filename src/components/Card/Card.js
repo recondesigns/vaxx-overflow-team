@@ -31,9 +31,9 @@ const CardContainer = styled.div`
         position: absolute;
         top: 20px;
         left: 104px;
-        right: 20px;
+        right: 76px;
         margin: 0px;
-        height: 20px;
+        height: 40px;
         font-family: Aktiv Grotesk Ex;
         font-style: normal;
         font-weight: 800;
@@ -44,6 +44,7 @@ const CardContainer = styled.div`
         text-transform: uppercase;
 
         @media (min-width: 768px) {
+            right: 40px;
             font-size: 22px;
             line-height: 24px;
         }

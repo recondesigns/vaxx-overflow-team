@@ -16,7 +16,7 @@ const HeaderContainer = styled.div`
 
     & > img {
         position: absolute;
-        top: 40px;
+        top: 32px;
         left: calc(50% - 246px/2);
         height: 64px;
 
