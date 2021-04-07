@@ -29,8 +29,11 @@ const AppContainer = styled.div`
 function App() {
   const { name, 
           role,
-          imgUrl 
+          imgUrl,
+          linkedIn 
   } = members.stedman
+
+  // console.log(linkedIn)
 
   return (
     <AppContainer>
@@ -41,7 +44,7 @@ function App() {
           name={name}
           role={role} 
           branch={'Army'} 
-          linkedIn={'linkedIn Link'}
+          linkedIn={linkedIn}
           resume={'resume link'}
           github={'github link'}
           imageURL={imgUrl}

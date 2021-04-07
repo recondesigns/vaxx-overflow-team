@@ -102,6 +102,7 @@ export default function Card(props) {
             linkedIn,
     } = props
     // let link = '#'
+    // console.log(linkedIn)
     
     return (
         <CardContainer>
