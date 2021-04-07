@@ -27,7 +27,7 @@ const CardContainer = styled.div`
         left: 104px;
         right: 20px;
         margin: 0px;
-        height: 40px;
+        height: 20px;
         font-family: Aktiv Grotesk Ex;
         font-style: normal;
         font-weight: 800;
@@ -36,6 +36,11 @@ const CardContainer = styled.div`
         letter-spacing: 0.02em;
         color: #333333;
         text-transform: uppercase;
+
+        @media (min-width: 768px) {
+            font-size: 22px;
+            line-height: 24px;
+        }
     }
 
     & > p {
@@ -47,6 +52,10 @@ const CardContainer = styled.div`
         line-height: 20px;
         letter-spacing: 0.02em;
         color: #333333;
+        
+        @media (min-width: 768px) {
+            font-size: 18px;
+        }
     }
 
     & > .p-top {
@@ -54,6 +63,10 @@ const CardContainer = styled.div`
         top: 72px;
         left: 104px;
         right: 20px;
+
+        @media (min-width: 768px) {
+            top: 52px;
+        }
     }
 
     & > .p-bottom {
@@ -61,6 +74,10 @@ const CardContainer = styled.div`
         top: 92px;
         left: 104px;
         right: 20px;
+
+        @media (min-width: 768px) {
+            top: 72px;
+        }
     }
 
     & > a {
@@ -73,24 +90,47 @@ const CardContainer = styled.div`
         letter-spacing: 0.02em;
         color: #3F7F82;
         text-decoration: none;
+
+        @media (min-width: 768px) {
+            font-size: 18px;
+        }
     }
 
     & > .a-left {
         position: absolute;
         top: 132px;
         left: 104px;
+
+        @media (min-width: 768px) {
+            top: 112px;
+        }
     }
 
     & > .a-middle {
         position: absolute;
         top: 132px;
         left: 176px;
+
+        @media (min-width: 768px) {
+            top: 112px;
+            left: 198px;
+        }
     }
 
     & > .a-right {
         position: absolute;
         top: 132px;
         left: 244px;
+
+        @media (min-width: 768px) {
+            top: 112px;
+            left: 288px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        width: 460px;
+        height: 152px;
     }
 `
 
