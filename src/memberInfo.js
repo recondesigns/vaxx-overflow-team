@@ -51,7 +51,7 @@ export const members = {
         role: 'UX/Product Designer',
         branch: 'Army',
         imgUrl: stedmanHeadshot,
-        linkedIn: 'https://www.linkedin.com/in/stedman/',
+        linkedIn: `https://www.linkedin.com/in/stedman/`,
         resume: 'https://docs.google.com/document/d/1Vbp5zalKMkRYApfSsULH2Md6ROrKPIKKHL5XZ0Gjdho/edit?usp=sharing',
         gitHub: 'https://github.com/recondesigns'
     }
