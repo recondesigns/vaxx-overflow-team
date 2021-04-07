@@ -100,9 +100,9 @@ export default function Card(props) {
             branch, 
             imageURL,
             linkedIn,
+            resume,
+            gitHub
     } = props
-    // let link = '#'
-    // console.log(linkedIn)
     
     return (
         <CardContainer>
@@ -113,8 +113,8 @@ export default function Card(props) {
             <p className={'p-top'}>{role}</p>
             <p className={'p-bottom'}>{branch}</p>
             <a href={linkedIn} target={'_blank'} rel={"noopener noreferrer"} className={'a-left'}>LinkedIn</a>
-            {/* <a href={resume} className={'a-middle'}>Resume</a> */}
-            {/* <a href={gitHub} className={'a-right'}>Github</a> */}
+            <a href={resume} target={'_blank'} rel={"noopener noreferrer"} className={'a-middle'}>Resume</a>
+            <a href={gitHub} target={'_blank'} rel={"noopener noreferrer"} className={'a-right'}>Github</a>
         </CardContainer>
     )
 }

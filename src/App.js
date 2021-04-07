@@ -30,10 +30,12 @@ function App() {
   const { name, 
           role,
           imgUrl,
-          linkedIn 
+          linkedIn,
+          resume,
+          gitHub 
   } = members.stedman
 
-  // console.log(linkedIn)
+  console.log(gitHub)
 
   return (
     <AppContainer>
@@ -45,8 +47,8 @@ function App() {
           role={role} 
           branch={'Army'} 
           linkedIn={linkedIn}
-          resume={'resume link'}
-          github={'github link'}
+          resume={resume}
+          gitHub={gitHub}
           imageURL={imgUrl}
         />
     </AppContainer>
