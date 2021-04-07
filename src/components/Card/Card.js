@@ -11,6 +11,12 @@ const CardContainer = styled.div`
     box-sizing: border-box;
     border-radius: 4px;
 
+    @media (min-width: 768px) {
+        margin: 0px 20px 20px 20px;
+        min-width: 460px;
+        height: 152px;
+    }
+
     & > div {
         position: absolute;
         width: 68px;
@@ -91,6 +97,14 @@ const CardContainer = styled.div`
         color: #3F7F82;
         text-decoration: none;
 
+        &:hover {
+            font-weight: 700;
+        }
+
+        &:active {
+            text-decoration: underline;
+        }
+
         @media (min-width: 768px) {
             font-size: 18px;
         }
@@ -126,11 +140,6 @@ const CardContainer = styled.div`
             top: 112px;
             left: 288px;
         }
-    }
-
-    @media (min-width: 768px) {
-        width: 460px;
-        height: 152px;
     }
 `
 
