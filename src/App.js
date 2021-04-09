@@ -5,6 +5,8 @@ import Preview from './components/Preview'
 import { Card } from './components/Card'
 import { members } from './memberInfo'
 
+import { black } from './colors'
+
 const AppContainer = styled.div`
   position: relative;
   width: 100%;
@@ -16,15 +18,16 @@ const AppContainer = styled.div`
     left: calc(50% - 320px/2);
     margin: 0px;
     width: 320px;
-    // font-family: 'Oswald', sans-serif;
-    // font-weight: 700;
-    // font-style: normal;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 800;
+    font-style: normal;
     font-size: 32px;
     line-height: 32px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #303030;
+    // color: #303030;
+    color: ${black.default};
     background: #FEFEFE;
   }
 
@@ -45,6 +48,7 @@ const AppContainer = styled.div`
 `
 
 function App() {
+
   let cardList = members.map((member, idx) => {
     const { 
       name,

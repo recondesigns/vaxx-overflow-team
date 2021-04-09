@@ -1,20 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
+import { black, white, green } from '../../colors'
 
 const CardContainer = styled.div`
     position: relative;
     margin: 0px 0px 20px 0px;
     width: 320px;
     height: 172px;
-    background: #FEFEFE;
-    border: 2px solid #333333;
+    background: ${white.default};
+    border: ${'2px solid ' + black.default};
     box-sizing: border-box;
     border-radius: 4px;
 
     @media (min-width: 768px) {
         margin: 0px 20px 20px 20px;
         min-width: 460px;
-        height: 152px;
+        height: 140px;
     }
 
     & > div {
@@ -34,25 +35,20 @@ const CardContainer = styled.div`
         right: 128px;
         margin: 0px;
         height: 40px;
-        // font-family: Aktiv Grotesk Ex;
-        // font-family: 'Oswald', sans-serif;
-        // font-style: normal;
-        // font-weight: 600;
-
         font-family: aktiv-grotesk-extended, sans-serif;
         font-weight: 900;
         font-style: normal;
         font-size: 20px;
         line-height: 20px;
         letter-spacing: 0.02em;
-        color: #333333;
+        color: ${black.default};
         text-transform: uppercase;
         // border: 1px dotted orange;
 
         @media (min-width: 768px) {
-            right: 40px;
-            font-size: 22px;
-            line-height: 24px;
+            right: 20px;
+            height: 20px;
+            font-size: 20px;
         }
     }
 
@@ -65,7 +61,7 @@ const CardContainer = styled.div`
         font-size: 16px;
         line-height: 20px;
         letter-spacing: 0.02em;
-        color: #333333;
+        color: ${black.default};
         // border: 1px dotted orange;
         
         @media (min-width: 768px) {
@@ -81,7 +77,7 @@ const CardContainer = styled.div`
         right: 20px;
 
         @media (min-width: 768px) {
-            top: 52px;
+            top: 48px;
         }
     }
 
@@ -93,7 +89,7 @@ const CardContainer = styled.div`
         right: 20px;
 
         @media (min-width: 768px) {
-            top: 72px;
+            top: 68px;
         }
     }
 
@@ -107,10 +103,9 @@ const CardContainer = styled.div`
         line-height: 20px;
         text-align: center;
         letter-spacing: 0.04em;
-        color: #3F7F82;
+        color: ${green.default};
         text-decoration: none;
         // border: 1px dotted orange;
-
 
         &:hover {
             font-weight: 600;
@@ -131,7 +126,7 @@ const CardContainer = styled.div`
         left: 104px;
 
         @media (min-width: 768px) {
-            top: 112px;
+            top: 100px;
         }
     }
 
@@ -141,7 +136,7 @@ const CardContainer = styled.div`
         left: 176px;
 
         @media (min-width: 768px) {
-            top: 112px;
+            top: 100px;
             left: 198px;
         }
     }
@@ -152,7 +147,7 @@ const CardContainer = styled.div`
         left: 244px;
 
         @media (min-width: 768px) {
-            top: 112px;
+            top: 100px;
             left: 288px;
         }
     }
