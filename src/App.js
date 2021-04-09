@@ -16,9 +16,9 @@ const AppContainer = styled.div`
     left: calc(50% - 320px/2);
     margin: 0px;
     width: 320px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    // font-family: 'Oswald', sans-serif;
+    // font-weight: 700;
+    // font-style: normal;
     font-size: 32px;
     line-height: 32px;
     text-align: center;
