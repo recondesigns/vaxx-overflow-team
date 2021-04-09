@@ -6,7 +6,7 @@ const CardContainer = styled.div`
     position: relative;
     margin: 0px 0px 20px 0px;
     width: 320px;
-    height: 172px;
+    height: 160px;
     background: ${white.default};
     border: ${'2px solid ' + black.default};
     box-sizing: border-box;
@@ -54,10 +54,9 @@ const CardContainer = styled.div`
 
     & > p {
         margin: 0px;
-        font-family: Aktiv Grotesk Cd;
-        font-family: 'Source Sans Pro', sans-serif;
-        // font-style: normal;
+        font-family: aktiv-grotesk-condensed, sans-serif;
         font-weight: 400;
+        font-style: normal;
         font-size: 16px;
         line-height: 20px;
         letter-spacing: 0.02em;
@@ -94,11 +93,9 @@ const CardContainer = styled.div`
     }
 
     & > a {
-        // font-family: aktiv-grotesk, sans-serif;
-        // font-family: 'Oswald', sans-serif;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 800;
-        // font-style: regular;
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 500;
+        font-style: normal;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
@@ -137,7 +134,7 @@ const CardContainer = styled.div`
 
         @media (min-width: 768px) {
             top: 100px;
-            left: 198px;
+            left: 192px;
         }
     }
 
@@ -148,7 +145,7 @@ const CardContainer = styled.div`
 
         @media (min-width: 768px) {
             top: 100px;
-            left: 288px;
+            left: 272px;
         }
     }
 `

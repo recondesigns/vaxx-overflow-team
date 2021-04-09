@@ -26,7 +26,6 @@ const AppContainer = styled.div`
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    // color: #303030;
     color: ${black.default};
     background: #FEFEFE;
   }

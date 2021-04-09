@@ -1,12 +1,13 @@
 import stedmanHeadshot from './assets/images/stedman-headshot-1x.jpg'
 import brendanHeadshot from './assets/images/brendan-headshot-1x.jpg'
+import michaelHeadshot from './assets/images/michael-headshot-1x.jpg'
 
 export const members = [
     {
         name: 'Michael Orland',
         role: 'Developer',
         branch: 'Army Reserves',
-        imgUrl: stedmanHeadshot,
+        imgUrl: michaelHeadshot,
         linkedIn: 'https://www.linkedin.com/in/morlan4/',
         resume: '#',
         gitHub: '#'
