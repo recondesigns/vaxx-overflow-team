@@ -35,9 +35,13 @@ const CardContainer = styled.div`
         margin: 0px;
         height: 40px;
         // font-family: Aktiv Grotesk Ex;
-        font-family: 'Oswald', sans-serif;
+        // font-family: 'Oswald', sans-serif;
         // font-style: normal;
-        font-weight: 600;
+        // font-weight: 600;
+
+        font-family: aktiv-grotesk-extended, sans-serif;
+        font-weight: 900;
+        font-style: normal;
         font-size: 20px;
         line-height: 20px;
         letter-spacing: 0.02em;
