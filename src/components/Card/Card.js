@@ -70,7 +70,6 @@ const CardContainer = styled.div`
 
     & > .p-top {
         position: absolute;
-        // top: 72px;
         top: 68px;
         left: 104px;
         right: 20px;
@@ -82,7 +81,6 @@ const CardContainer = styled.div`
 
     & > .p-bottom {
         position: absolute;
-        // top: 92px;
         top: 88px;
         left: 104px;
         right: 20px;

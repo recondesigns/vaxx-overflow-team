@@ -4,13 +4,11 @@ import Header from './components/Header'
 import Preview from './components/Preview'
 import { Card } from './components/Card'
 import { members } from './memberInfo'
-
-import { black } from './colors'
+import { black, white } from './colors'
 
 const AppContainer = styled.div`
   position: relative;
   width: 100%;
-  // height: 1458px;
 
   & > h2 {
     position: absolute;
@@ -27,7 +25,7 @@ const AppContainer = styled.div`
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: ${black.default};
-    background: #FEFEFE;
+    background: ${white.default};
   }
 
   & > .card-container {
