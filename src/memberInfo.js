@@ -1,7 +1,10 @@
 import stedmanHeadshot from './assets/images/stedman-headshot-1x.jpg'
-import brendanHeadshot from './assets/images/brendan-headshot-1x.jpg'
+import brendanHeadshot from './assets/images/brendan-headshot3-1x.jpg'
 import michaelHeadshot from './assets/images/michael-headshot-1x.jpg'
-import andrewHeadshot from './assets/images/andrew-headshot-1x.jpg'
+import andrewHeadshot from './assets/images/andrew-headshot2-1x.jpg'
+import kyleHeadshot from './assets/images/kyle-headshot-1x.jpg'
+import danHeadshot from './assets/images/dan-headshot-1x.jpg'
+import charlesHeadshot from './assets/images/charles-headshot-1x.jpg'
 
 export const members = [
     {
@@ -17,19 +20,19 @@ export const members = [
         name: 'Dan Manfield',
         role: 'Developer',
         branch: 'Navy',
-        imgUrl: stedmanHeadshot,
+        imgUrl: danHeadshot,
         linkedIn: 'https://www.linkedin.com/in/danielmanfield/',
         resume: '#',
-        gitHub: '#'
+        gitHub: 'https://github.com/dmanfield'
     },
     {
         name: 'Kyle Stiff',
         role: 'Air Force',
         branch: 'Navy',
-        imgUrl: stedmanHeadshot,
+        imgUrl: kyleHeadshot,
         linkedIn: 'https://www.linkedin.com/in/kyle-stiff-76a4398a/',
         resume: '#',
-        gitHub: '#'
+        gitHub: 'https://github.com/kylekstiff'
     },
     {
         name: 'Andrew Austin',
@@ -38,7 +41,7 @@ export const members = [
         imgUrl: andrewHeadshot,
         linkedIn: 'https://www.linkedin.com/in/andrew-d-austin/',
         resume: '#',
-        gitHub: '#'
+        gitHub: 'https://github.com/andrewaustin12'
     },
     {
         name: 'Brenden Schumacher',
@@ -53,10 +56,10 @@ export const members = [
         name: 'Charles Carbonel',
         role: 'Developer',
         branch: 'Air Force',
-        imgUrl: stedmanHeadshot,
+        imgUrl: charlesHeadshot,
         linkedIn: 'https://www.linkedin.com/in/charles-carbonel/',
         resume: '#',
-        gitHub: '#'
+        gitHub: 'https://github.com/cecarbs'
     },
     {
         name: 'Michael Stedman',
