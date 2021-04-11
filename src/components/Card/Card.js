@@ -5,8 +5,8 @@ import { black, white, green } from '../../colors'
 const CardContainer = styled.div`
     position: relative;
     margin: 0px 0px 20px 0px;
-    width: 320px;
-    height: 160px;
+    width: 304px;
+    height: 144px;
     background: ${white.default};
     border: ${'2px solid ' + black.default};
     box-sizing: border-box;
@@ -32,9 +32,8 @@ const CardContainer = styled.div`
         position: absolute;
         top: 20px;
         left: 104px;
-        right: 128px;
+        right: 20px;
         margin: 0px;
-        height: 40px;
         font-family: aktiv-grotesk-extended, sans-serif;
         font-weight: 900;
         font-style: normal;
@@ -43,7 +42,7 @@ const CardContainer = styled.div`
         letter-spacing: 0.02em;
         color: ${black.default};
         text-transform: uppercase;
-        // border: 1px dotted orange;
+        border: 1px dotted orange;
 
         @media (min-width: 768px) {
             right: 20px;
@@ -61,7 +60,7 @@ const CardContainer = styled.div`
         line-height: 20px;
         letter-spacing: 0.02em;
         color: ${black.default};
-        // border: 1px dotted orange;
+        border: 1px dotted orange;
         
         @media (min-width: 768px) {
             font-size: 18px;
@@ -70,7 +69,7 @@ const CardContainer = styled.div`
 
     & > .p-top {
         position: absolute;
-        top: 68px;
+        top: 44px;
         left: 104px;
         right: 20px;
 
@@ -81,7 +80,7 @@ const CardContainer = styled.div`
 
     & > .p-bottom {
         position: absolute;
-        top: 88px;
+        top: 64px;
         left: 104px;
         right: 20px;
 
@@ -91,12 +90,13 @@ const CardContainer = styled.div`
     }
 
     & > a {
+        width: 72px;
         font-family: aktiv-grotesk, sans-serif;
         font-weight: 500;
         font-style: normal;
         font-size: 16px;
         line-height: 20px;
-        text-align: center;
+        text-align: left;
         letter-spacing: 0.04em;
         color: ${green.default};
         text-decoration: none;
@@ -117,7 +117,7 @@ const CardContainer = styled.div`
 
     & > .a-left {
         position: absolute;
-        top: 120px;
+        top: 100px;
         left: 104px;
 
         @media (min-width: 768px) {
@@ -125,21 +125,12 @@ const CardContainer = styled.div`
         }
     }
 
-    & > .a-middle {
-        position: absolute;
-        top: 120px;
-        left: 176px;
-
-        @media (min-width: 768px) {
-            top: 100px;
-            left: 192px;
-        }
-    }
-
     & > .a-right {
         position: absolute;
-        top: 120px;
-        left: 244px;
+        top: 100px;
+        // left: 244px;
+        left: 180px;
+
 
         @media (min-width: 768px) {
             top: 100px;
@@ -167,7 +158,6 @@ export default function Card(props) {
             <p className={'p-top'}>{role}</p>
             <p className={'p-bottom'}>{branch}</p>
             <a href={linkedIn} target={'_blank'} rel={"noopener noreferrer"} className={'a-left'}>LinkedIn</a>
-            <a href={resume} target={'_blank'} rel={"noopener noreferrer"} className={'a-middle'}>Resume</a>
             <a href={gitHub} target={'_blank'} rel={"noopener noreferrer"} className={'a-right'}>Github</a>
         </CardContainer>
     )

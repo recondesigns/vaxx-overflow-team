@@ -1,6 +1,6 @@
 import stedmanHeadshot from './assets/images/stedman-headshot-1x.jpg'
 import brendanHeadshot from './assets/images/brendan-headshot3-1x.jpg'
-import michaelHeadshot from './assets/images/michael-headshot-1x.jpg'
+import michaelHeadshot from './assets/images/michael-headshot2-1x.jpg'
 import andrewHeadshot from './assets/images/andrew-headshot2-1x.jpg'
 import kyleHeadshot from './assets/images/kyle-headshot-1x.jpg'
 import danHeadshot from './assets/images/dan-headshot-1x.jpg'
@@ -8,7 +8,7 @@ import charlesHeadshot from './assets/images/charles-headshot-1x.jpg'
 
 export const members = [
     {
-        name: 'Michael Orland',
+        name: 'Michael',
         role: 'Developer',
         branch: 'Army Reserves',
         imgUrl: michaelHeadshot,
@@ -17,7 +17,7 @@ export const members = [
         gitHub: '#'
     },
     {
-        name: 'Dan Manfield',
+        name: 'Dan',
         role: 'Developer',
         branch: 'Navy',
         imgUrl: danHeadshot,
@@ -26,7 +26,7 @@ export const members = [
         gitHub: 'https://github.com/dmanfield'
     },
     {
-        name: 'Kyle Stiff',
+        name: 'Kyle',
         role: 'Air Force',
         branch: 'Navy',
         imgUrl: kyleHeadshot,
@@ -35,7 +35,7 @@ export const members = [
         gitHub: 'https://github.com/kylekstiff'
     },
     {
-        name: 'Andrew Austin',
+        name: 'Andrew',
         role: 'Developer',
         branch: 'Air Force',
         imgUrl: andrewHeadshot,
@@ -44,7 +44,7 @@ export const members = [
         gitHub: 'https://github.com/andrewaustin12'
     },
     {
-        name: 'Brenden Schumacher',
+        name: 'Brenden',
         role: 'Developer',
         branch: 'Air Force',
         imgUrl: brendanHeadshot,
@@ -53,7 +53,7 @@ export const members = [
         gitHub: 'https://github.com/btschumacher19'
     },
     {
-        name: 'Charles Carbonel',
+        name: 'Charles',
         role: 'Developer',
         branch: 'Air Force',
         imgUrl: charlesHeadshot,
@@ -62,7 +62,7 @@ export const members = [
         gitHub: 'https://github.com/cecarbs'
     },
     {
-        name: 'Michael Stedman',
+        name: 'Stedman',
         role: 'UX/Product Designer',
         branch: 'Army',
         imgUrl: stedmanHeadshot,
