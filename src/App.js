@@ -12,7 +12,7 @@ const AppContainer = styled.div`
 
   & > h2 {
     position: absolute;
-    top: 422px;
+    top: 552px;
     left: calc(50% - 320px/2);
     margin: 0px;
     width: 320px;
@@ -30,7 +30,7 @@ const AppContainer = styled.div`
 
   & > .card-container {
     position: absolute;
-    top: 472px;
+    top: 624px;
     left: calc(50% - 380px/2);
     width: 380px;
     display: flex;
@@ -38,6 +38,7 @@ const AppContainer = styled.div`
     align-items: center;
 
     @media (min-width: 768px) {
+      top: 604px;
       left: calc(50% - 960px/2);
       width: 960px;
     }
