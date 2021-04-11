@@ -14,7 +14,7 @@ const CardContainer = styled.div`
 
     @media (min-width: 768px) {
         margin: 0px 20px 20px 20px;
-        min-width: 460px;
+        // min-width: 460px;
         height: 140px;
     }
 
@@ -42,7 +42,7 @@ const CardContainer = styled.div`
         letter-spacing: 0.02em;
         color: ${black.default};
         text-transform: uppercase;
-        border: 1px dotted orange;
+        // border: 1px dotted orange;
 
         @media (min-width: 768px) {
             right: 20px;
@@ -60,7 +60,7 @@ const CardContainer = styled.div`
         line-height: 20px;
         letter-spacing: 0.02em;
         color: ${black.default};
-        border: 1px dotted orange;
+        // border: 1px dotted orange;
         
         @media (min-width: 768px) {
             font-size: 18px;
@@ -102,16 +102,17 @@ const CardContainer = styled.div`
         text-decoration: none;
         // border: 1px dotted orange;
 
+        @media (min-width: 768px) {
+            width: 80px;
+            font-size: 18px;
+        }
+
         &:hover {
             font-weight: 600;
         }
 
         &:active {
             text-decoration: underline;
-        }
-
-        @media (min-width: 768px) {
-            font-size: 18px;
         }
     }
 
@@ -134,7 +135,7 @@ const CardContainer = styled.div`
 
         @media (min-width: 768px) {
             top: 100px;
-            left: 272px;
+            left: 188px;
         }
     }
 `
@@ -145,7 +146,6 @@ export default function Card(props) {
             branch, 
             imageURL,
             linkedIn,
-            resume,
             gitHub
     } = props
     
